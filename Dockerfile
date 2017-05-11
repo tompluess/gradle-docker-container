@@ -12,5 +12,3 @@ RUN apk add --update --no-cache \
     && update-ca-certificates \
     && pip install --upgrade pip \
     && pip install docker-compose
-
-USER gradle
